@@ -3282,6 +3282,11 @@ input, select, textarea {
 		}
 
 /* Intro */
+	.putcenter {
+		display: flex;
+		flex-direction: column;
+		justify-content:
+	}
 
 	#intro {
 		color: #ffffff;
@@ -3763,7 +3768,7 @@ input, select, textarea {
 		max-width: 72rem;
 		z-index: 2;
 	}
-
+	
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
@@ -4686,4 +4691,15 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+	#workdiv{
+		position: relative;
+		height: 5rem;
+	}
+	#workdiv header{
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%,-50%);
 	}
